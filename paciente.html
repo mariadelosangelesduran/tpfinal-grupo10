@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OdontosRed :. Pacientes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/3bc4237a4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header></header>
+    <nav class="pacientes-nav">
+        <div class="container-logo">
+            <div>
+                <img class="logo" src="./img/logo.png" alt="">
+            </div>
+            <div>ODONTOSRED</div>
+        </div>
+        <div class="container-btn">
+            <div class="btn"><a href="index.html">INICIO </a></div>
+            <div class="btn"><a href="servicios.html">SERVICIOS</a></div>
+            <div class="btn"><a href="pacientes.html">PACIENTES</a></div>
+            <div class="btn"><a href="contacto.html">CONTACTOS</a></div>
+        </div>
+    </nav>
+    <main>
+        <!--<section>
+            <div class="kodfun-gallery">
+                <div class="banner-img1"></div>
+                <div class="banner-img2"></div>
+                <div class="banner-img3"></div>
+                <div class="banner-img4"></div>
+                <div class="banner-img5"></div>
+            </div>
+        </section>
+    
+        -->
+        
+        <section class="pacientes-form">
+            <form action="POST" >
+                <select name="tipo_dni" id="">
+                    <option value="cedula">CI</option>
+                    <option value="dni" selected>DNI</option>
+                    <option value="lib_civica">LC</option>
+                    <option value="lib_enrol">LE</option>
+                </select>
+                <input type="number" name="dni" id="dni">
+                <input type="submit" value="Buscar Paciente">
+            </form>
+        </section>
+
+
+        <section>
+            <p>Volver</p>
+        </section>
+
+
+        <section class="pacientes-section">
+            <div class="pacientes-info">
+                <div><img src="./img/icons8-usuario-de-género-neutro-64.png" alt=""></div>
+                <diV>DNI</diV>
+                <div>
+                    Ingrese su DNI y presione buscar 
+                    Paciente. En caso de que no este 
+                    ingresado en la base de datos 
+                    primero debe cargar datos como Nombre, 
+                    apellido, celular, mail y obra social
+                     para poder tomar un turno.
+                </div>
+            </div>
+            <div class="pacientes-info">
+                <div><img src="./img/icons8-dentist-32.png" alt=""></div>
+                <diV>PROFESIONAL</diV>
+                <div>
+                    Seleccione el profesional y presione buscar horarios. 
+                    Seleccione turno que desea.
+                </div>
+            </div>
+            <div class="pacientes-info">
+                <div><img src="./img/icons8-no-dispositivos-móviles-50.png" alt=""></div>
+                <diV>VALIDAR CELULAR</diV>
+                <div>
+                    Valide su número de celular ingresando los últimos 3 
+                    números. En caso de que su número no sea el indicado 
+                    deberá acercarse al centro para actualizar sus datos.
+                </div>
+            </div>
+            <div class="pacientes-info">
+                <div><img src="./img/icons8-aprobación-50.png" alt=""></div>
+                <diV>CONFIRMACIÓN</diV>
+                <div>
+                    Su turno será visible por pantalla y además si esa 
+                    suscripto a la notificaciones por Whatsapp sera 
+                    recordado el día anterior.
+                </div>
+            </div>
+        </section>
+    </main>
+       <!-- !....Pie de Pagina....! -->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo10.png" alt="logo de grupo 10">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Telefono: +54 (2302) 56 75 19 Lunes a Viernes: 09 a 17 Hs.</p>
+                <p>Direccion: Calle 19 N° 944 General Pico La Pampa EMAIL: contacto@odontosonline.com.ar</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>      
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>grupo 10</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    
+</body>
