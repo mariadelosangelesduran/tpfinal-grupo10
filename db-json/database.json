@@ -1,0 +1,50 @@
+[
+    {
+        "Apellido": "Ordoñez",
+        "Nombre": "Noelia",
+        "tipodoc": "dni",
+        "numerodoc": "28544777",
+        "direccion": "calle 403 nro 3720",
+        "telefono": "2302-484330"
+    },
+    {
+        "Apellido": "Benna",
+        "Nombre": "Bautista",
+        "tipodoc": "dni",
+        "numerodoc": "52818951",
+        "direccion": "calle 403 nro 3720",
+        "telefono": "2302-484330"
+    },
+    {
+        "Apellido": "Dominguez",
+        "Nombre": "Graciela",
+        "tipodoc": "lc",
+        "numerodoc": "5441299",
+        "direccion": "calle 38 nro 257",
+        "telefono": "2302-616468"
+    },
+    {
+        "Apellido": "Dominguez",
+        "Nombre": "Rodolfo",
+        "tipodoc": "dni",
+        "numerodoc": "14928363",
+        "direccion": "calle 38 nro 257",
+        "telefono": "2302-581471"
+    },
+    {
+        "Apellido": "Bauchet",
+        "Nombre": "Carolina",
+        "tipodoc": "dni",
+        "numerodoc": "30016951",
+        "direccion": "calle 6 nro 1368",
+        "telefono": "2302-631387"
+    },
+    {
+        "Apellido": "Fauret",
+        "Nombre": "Juan",
+        "tipodoc": "dni",
+        "numerodoc": "28547234",
+        "direccion": "calle 6 nro 1368",
+        "telefono": "2302-235252"
+    }
+]
