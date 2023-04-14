@@ -222,6 +222,11 @@ nav{
     padding: 0px 20px;
     margin: 15px;
 }
+.btn-menu{
+    display: none;
+    background-color: rgb(91, 174, 252);
+    padding: 5px;
+}
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
         width: 90%;
@@ -241,5 +246,11 @@ nav{
         grid-gap: 5px;
         padding: 35px 0px;
     } 
-}
+    .btn-menu{
+        display: block;
+    }
+    .container-btn .btn {
+        display: none;
 
+    }
+}
