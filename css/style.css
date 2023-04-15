@@ -225,7 +225,7 @@ nav{
 .btn-menu{
     display: none;
     background-color: rgb(91, 174, 252);
-    padding: 5px;
+   
 }
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
@@ -246,8 +246,9 @@ nav{
         grid-gap: 5px;
         padding: 35px 0px;
     } 
-    .btn-menu{
+    .container-btn .btn-menu{
         display: block;
+        color: #ffffff;
     }
     .container-btn .btn {
         display: none;
